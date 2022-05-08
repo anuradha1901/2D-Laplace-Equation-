@@ -1,6 +1,5 @@
 // Name: Anuradha Agarwal
-// Title: Final Project - Solving LAPLACE 2D Numerically
-// COMP 526 - Fall 2021
+// Title: Solving LAPLACE 2D Numerically
 // Date: 12/14/2021
 
 // Required Headers
@@ -504,7 +503,6 @@ Linf norm is the infinity norm
 // FUNCTION Real_function
 void Real_function(int n, int m, double hx, double hy, double** W)
 // Anuradha Agarwal
-// COMP 526
 // Date: 12/14/2021
 /*
 This function takes in n, m which are the size of the matrix, hx, hy which are
@@ -532,7 +530,6 @@ of the exact or analytical solution
 // FUNCTION error_matrix
 void error_matrix(int n, int m, double** U, double** W, double* F)
 // Anuradha Agarwal
-// COMP 526
 // Date: 12/14/2021
 
 /*
@@ -594,7 +591,6 @@ solution.
 // FUNCTION BDYVAL
 double BDYVAL(int option, double w)
 // Anuradha Agarwal
-// COMP 526
 // Date: 12/14/2021
 // The inputs of the function are the option which denotes the function and double w
 // which is a constant double
@@ -626,7 +622,6 @@ double BDYVAL(int option, double w)
 // All the functions below are the function depicting the boundary value conditions
 double f1(double x)
 // Anuradha Agarwal
-// COMP 526
 // Date: 12/14/2021
 // This function is the boundary value condition for y = 0 and x in (0,1)
 // This takes in double x which is the variable and returns a double value
@@ -636,7 +631,6 @@ double f1(double x)
 }
 double f2(double x)
 // Anuradha Agarwal
-// COMP 526
 // Date: 12/14/2021
 // This function is the boundary value condition for y = 1 and x in (0,1)
 // This takes in double x which is the variable and returns a double value
@@ -646,7 +640,6 @@ double f2(double x)
 }
 double g1(double y)
 // Anuradha Agarwal
-// COMP 526
 // Date: 12/14/2021
 // This function is the boundary value condition for x = 0 and y in (0,1)
 // This takes in double y which is the variable and returns a double value
@@ -656,7 +649,6 @@ double g1(double y)
 }
 double g2(double y)
 // Anuradha Agarwal
-// COMP 526
 // Date: 12/14/2021
 // This function is the boundary value condition for x = 1 and y in (0,1)
 // This takes in double y which is the variable and returns a double value
