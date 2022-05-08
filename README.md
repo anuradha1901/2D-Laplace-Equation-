@@ -15,9 +15,6 @@ FOLDER: /bin
 FOLDER: /data
 --> This folder contains the raw data associated with the project and the potential references.
 
-FOLDER: /docs
---> This folder contains the manuscript, digital copies of the cited references, figures, and other associated files for publication.
-
 FOLDER: /results
 --> This folder contains the results, performance analysis, and commented references associated with the project.
 
